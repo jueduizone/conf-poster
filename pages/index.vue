@@ -11,7 +11,7 @@
           :style="{'width': avatarPos.width + 'vh', 'height': avatarPos.height + 'vh', 'left': avatarPos.left + 'vh', 'top': avatarPos.top + 'vh'}"
         >
         <div class="bg"></div>
-        <img class="poster-template" :src="'poster-template-' + lang + '.png'">
+        <img class="poster-template" :src="'poster-template-' + lang + '.jpg'">
         <div class="poster-content">
           <div class="title">{{ title }}</div>
           <div class="name" :style="{'font-size': 3.7 * nameFontSize + 'vh'}">{{ name }}</div>
@@ -65,7 +65,7 @@
         </el-form-item>
         <el-form-item label="演讲题目">
 <!--          <el-checkbox v-model="isKeynote">主题演讲</el-checkbox>-->
-<!--          <el-input v-model="topic" />-->
+          <el-input v-model="topic" />
         </el-form-item>
         <el-form-item label="演讲时间">
           <el-input v-model="time" />
@@ -105,7 +105,7 @@
         </el-form-item>
 
         <el-form-item class="info">
-          <i class="el-icon-service"></i> 本工具由 <a href="http://github.com/Ovilia">@Ovilia</a> 开发，<a href="mailto:oviliazhang@gmail.com">问题反馈</a>
+          <i class="el-icon-service"></i> 本工具由 <a href="http://github.com/Ovilia">@Ovilia</a> 开发， <a href="http://github.com/jueduizone">@jueduizone</a> 修改，<a href="mailto:oviliazhang@gmail.com">问题反馈</a>
         </el-form-item>
       </el-form>
     </el-col>
