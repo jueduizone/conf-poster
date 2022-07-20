@@ -11,7 +11,7 @@
           :style="{'width': avatarPos.width + 'vh', 'height': avatarPos.height + 'vh', 'left': avatarPos.left + 'vh', 'top': avatarPos.top + 'vh'}"
         >
         <div class="bg"></div>
-        <img class="poster-template" :src="'poster-template-' + lang + '.jpg'">
+        <img class="poster-template" :src="'poster-template-' + lang + '.png'">
         <div class="poster-content">
           <div class="title">{{ title }}</div>
           <div class="name" :style="{'font-size': 3.7 * nameFontSize + 'vh'}">{{ name }}</div>
@@ -423,7 +423,7 @@ h1 {
       right: 0;
       top: 0;
       bottom: 0;
-      padding: 37vh 3vh 0 3vh;
+      padding: 50vh 3vh 0 3vh;
       text-align: center;
       color: #fff;
       font-size: 2vh;
@@ -436,13 +436,12 @@ h1 {
 
       .title {
         font-weight: normal;
-        color: #FFE342;
+        color: #FFF;
       }
 
       .name {
         margin: 0 0 0.5vh 0;
-        color: #FFE342;
-        font-family: 'SourceHanSerifSC', 'Open Sans';
+        color: #FFF;
         font-size: 3.7vh;
         font-weight: bold;
       }
@@ -455,7 +454,7 @@ h1 {
 
       .time {
         font-size: 2vh;
-        color: #ccc;
+        color: #fff;
       }
 
       .keynote {
