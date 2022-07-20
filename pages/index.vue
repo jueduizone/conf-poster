@@ -23,11 +23,7 @@
     </el-col>
     <el-col :span="8" class="poster-control" v-loading="isDownloading" element-loading-text="生成海报中">
       <el-row>
-        <h1>ApacheCon Asia 2021 海报生成器</h1>
-        <el-radio-group size="small" v-model="lang">
-          <el-radio-button label="zh"></el-radio-button>
-          <el-radio-button label="en"></el-radio-button>
-        </el-radio-group>
+        <h1>Rust China Conf 2021-2022 邀请函生成器</h1>
       </el-row>
       <el-form>
         <el-form-item label="论坛名称" id="track">
@@ -68,8 +64,8 @@
           </el-col>
         </el-form-item>
         <el-form-item label="演讲题目">
-          <el-checkbox v-model="isKeynote">主题演讲</el-checkbox>
-          <el-input v-model="topic" />
+<!--          <el-checkbox v-model="isKeynote">主题演讲</el-checkbox>-->
+<!--          <el-input v-model="topic" />-->
         </el-form-item>
         <el-form-item label="演讲时间">
           <el-input v-model="time" />
