@@ -423,7 +423,7 @@ h1 {
       right: 0;
       top: 0;
       bottom: 0;
-      padding: 50vh 3vh 0 3vh;
+      padding: 45vh 3vh 0 3vh;
       text-align: center;
       color: #fff;
       font-size: 2vh;
